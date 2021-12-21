@@ -13,11 +13,13 @@ import EpisodePage from './Pages/EpisodePage';
 import Characters from './Pages/Characters';
 import Locations from './Pages/Locations';
 import Episodes from './Pages/Episodes';
+import Menu from './Components/Menu';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Menu/>
         <Routes>
           <Route path = "/" element = {<Navigate to = "/home"/>} />
           <Route path = "/home" element = {<Home/>} />

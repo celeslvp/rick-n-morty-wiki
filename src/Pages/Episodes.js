@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Episode from "../Components/Episode";
 import { getAllEpisodes } from "../Services/EpisodeService";
-import { getAllLocations } from "../Services/LocationService";
 
 function Episodes(){
     const [episodes, setEpisodes] = useState([])
