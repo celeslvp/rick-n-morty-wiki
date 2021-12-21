@@ -32,7 +32,6 @@ function CharacterPage(){
             <p><b className="Description">Gender: </b>{character.gender}</p>
             <p><b className="Description">Origin Planet: </b>{character?.origin?.name}</p>
             <p><b className="Description">Actual Location: </b>{character?.location?.name}</p>
-            <button>Contact</button>
             <div>
                 <button><Link to={"/character/"+(character.id-1)}>Prev</Link></button>
                 <button><Link to={"/character/"+(character.id+1)}>Next</Link></button>
